@@ -1,24 +1,308 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Administration — Perspectives Pessac</title>
-  <meta name="robots" content="noindex" />
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perspectives Pessac — Une Parole et des actes</title>
+<meta name="description" content="Église Perspectives de Pessac : notre histoire, la vie d'église, infos pratiques et contact.">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style-v43.css">
 </head>
 <body>
-  <script src="https://unpkg.com/decap-cms@3.3.0/dist/decap-cms.js"></script>
-  <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", (user) => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  </script>
+
+<header class="site-header">
+  <div class="header-inner">
+    <img src="images/logo-perspectives-pessac-stacked.png" alt="Église Perspectives Pessac" class="header-logo" id="headerLogo">
+    <nav class="top-nav">
+      <div class="nav-item">
+        <button class="nav-trigger" aria-expanded="false">Vision</button>
+        <div class="dropdown">
+          <a href="#histoire">Notre Histoire</a>
+          <a href="#vision">Vision</a>
+          <a href="#mission">Mission</a>
+          <a href="#valeurs">Valeurs</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <button class="nav-trigger" aria-expanded="false">Nouveau&nbsp;?</button>
+        <div class="dropdown">
+          <a href="#nouveau">Présentation</a>
+          <a href="#adresse">Adresse</a>
+          <a href="#plan">Plan</a>
+          <a href="#contact-form">Nous contacter</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <button class="nav-trigger" aria-expanded="false">Vie d'église</button>
+        <div class="dropdown">
+          <a href="#celebration">Célébration</a>
+          <a href="#living-room">Living Room</a>
+          <a href="#etudiants">Étudiants</a>
+          <a href="#ados">Adolescents</a>
+          <a href="#vie-missionnelle">Vie missionnelle</a>
+          <a href="#coffee-shop">Coffee Shop</a>
+          <a href="#discipulat">Discipulat</a>
+        </div>
+      </div>
+      <a href="#medias" class="nav-single">Médias</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+  </div>
+</header>
+
+<nav class="overlay-nav" id="overlayNav">
+  <button class="overlay-close" id="overlayClose" aria-label="Fermer le menu">✕</button>
+  <div class="overlay-groups">
+    <div class="overlay-group">
+      <p class="overlay-group-title">Vision</p>
+      <ul class="overlay-links">
+        <li><a href="#histoire">Notre Histoire</a></li>
+        <li><a href="#vision">Vision</a></li>
+        <li><a href="#mission">Mission</a></li>
+        <li><a href="#valeurs">Valeurs</a></li>
+      </ul>
+    </div>
+    <div class="overlay-group">
+      <p class="overlay-group-title">Nouveau&nbsp;?</p>
+      <ul class="overlay-links">
+        <li><a href="#nouveau">Présentation</a></li>
+        <li><a href="#adresse">Adresse</a></li>
+        <li><a href="#plan">Plan</a></li>
+        <li><a href="#contact-form">Nous contacter</a></li>
+      </ul>
+    </div>
+    <div class="overlay-group">
+      <p class="overlay-group-title">Vie d'église</p>
+      <ul class="overlay-links">
+        <li><a href="#celebration">Célébration</a></li>
+        <li><a href="#living-room">Living Room</a></li>
+        <li><a href="#etudiants">Étudiants</a></li>
+        <li><a href="#ados">Adolescents</a></li>
+        <li><a href="#vie-missionnelle">Vie missionnelle</a></li>
+        <li><a href="#coffee-shop">Coffee Shop</a></li>
+        <li><a href="#discipulat">Discipulat</a></li>
+      </ul>
+    </div>
+    <div class="overlay-group">
+      <ul class="overlay-links">
+        <li><a href="#medias">Médias</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="overlay-meta">
+    <p>4 rue Henri De Châtelier, 33600 Pessac</p>
+  </div>
+</nav>
+
+<div class="site-frame">
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="accueil">
+    <div class="hero-left">
+      <div class="hero-left-inner">
+        <span class="watermark" aria-hidden="true">PERSPECTIVES</span>
+        <div class="hero-content reveal">
+          <h1 id="heroTitre">UNE PAROLE<br>ET DES ACTES</h1>
+          <p id="heroTexte">Nous sommes une jeune implantation d'Église protestante évangélique.</p>
+          <a href="#vie-eglise" class="btn-block" id="heroBouton">Nos célébrations</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-right" aria-hidden="true">
+      <video class="hero-photo" id="heroVideo" autoplay muted loop playsinline poster="images/hero-video-poster.jpg">
+        <source data-type="webm" src="images/hero-video.webm" type="video/webm">
+        <source data-type="mp4" src="images/hero-video.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+
+  <!-- NOUVEAU ? -->
+  <section class="prose-split theme-white" id="nouveau">
+    <div class="prose-media reveal">
+      <div class="prose-media-head">
+        <h2 id="nouveauTitre">NOUVEAU&nbsp;?</h2>
+        <p class="eyebrow prose-media-sub" id="nouveauEyebrow">Soyez les bienvenus</p>
+      </div>
+      <div class="prose-video" id="introVideoFrame">
+        <img src="images/nouveau-video-poster.jpg" alt="" class="intro-video-poster" id="introVideoPoster">
+        <span class="play-btn" aria-hidden="true" id="introVideoPlayBtn">▶</span>
+        <video class="intro-video" id="introVideo" playsinline controls preload="none" poster="images/nouveau-video-poster.jpg">
+          <source src="images/nouveau-video.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <div class="prose-inner reveal">
+      <div id="nouveauTexte"></div>
+      <a href="#contact" class="btn-block" id="nouveauBouton">Envie d'en savoir plus&nbsp;? Rejoignez-nous</a>
+    </div>
+  </section>
+
+  <!-- MISSION -->
+  <section class="activities theme-yellow" id="mission">
+    <div class="activities-head reveal">
+      <h2 class="h2-xl" id="missionTitre">NOTRE<br>MISSION</h2>
+      <div class="activities-photo">
+        <img src="images/mission-aerial.jpg" alt="" loading="lazy" id="missionPhoto">
+      </div>
+    </div>
+    <div class="activities-grid reveal" id="missionGrid"></div>
+  </section>
+
+  <!-- VALEURS -->
+  <section class="activities" id="valeurs">
+    <div class="activities-head reveal">
+      <h2 id="valeursTitre">NOS<br>VALEURS</h2>
+      <div class="activities-photo">
+        <img src="images/nouveau-photo.jpg" alt="" loading="lazy" id="valeursPhoto">
+      </div>
+    </div>
+    <div class="activities-grid reveal" id="valeursGrid"></div>
+  </section>
+
+  <!-- VIE D'ÉGLISE -->
+  <section class="activities theme-white" id="vie-eglise">
+    <div class="activities-head reveal">
+      <h2 id="vieEgliseTitre">VIE<br>D'ÉGLISE</h2>
+      <div class="activities-photo">
+        <img src="images/vie-eglise-photo.jpg" alt="" loading="lazy" id="vieEglisePhoto">
+      </div>
+    </div>
+    <div class="activities-grid reveal" id="vieEgliseGrid"></div>
+  </section>
+
+  <!-- NOTRE HISTOIRE -->
+  <section class="split-section split-third" id="histoire">
+    <div class="photo-panel light reveal" aria-hidden="true">
+      <img src="images/arnaud-portrait.jpg" alt="" class="panel-photo" id="histoirePhoto">
+    </div>
+    <div class="dark-panel theme-yellow reveal">
+      <span class="eyebrow-dot"></span>
+      <p class="eyebrow" id="histoireEyebrow">Notre histoire</p>
+      <h2 id="histoireTitre">LE SUD-OUEST<br>DANS LE CŒUR</h2>
+      <div id="histoireTexte"></div>
+      <div id="vision">
+        <blockquote class="pull-quote" id="histoireVisionCitation">« Implanter dans la métropole de Bordeaux une Église missionnelle qui inspire une nouvelle génération de disciples. »</blockquote>
+        <p class="panel-text-small" id="histoireVisionLabel">Notre vision</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MÉDIAS -->
+  <section class="split-section split-compact" id="medias">
+    <a class="photo-panel media-visual media-link reveal medias-lien" href="https://www.youtube.com/watch?v=gjEAXjd1Two&list=RDgjEAXjd1Two&index=1" target="_blank" rel="noopener" aria-label="Regarder sur YouTube">
+      <span class="media-frame">
+        <img src="https://img.youtube.com/vi/gjEAXjd1Two/hqdefault.jpg" alt="" class="media-thumb" id="mediasVignette">
+        <span class="play-btn" aria-hidden="true">▶</span>
+      </span>
+    </a>
+    <div class="dark-panel reveal">
+      <span class="eyebrow-dot"></span>
+      <p class="eyebrow" id="mediasEyebrow">Médias</p>
+      <h2 id="mediasTitre">PRÉDICATIONS<br>&amp; CONTENUS</h2>
+      <p class="panel-text" id="mediasTexte">Retrouvez nos prédications et contenus en vidéo.</p>
+      <a href="https://www.youtube.com/watch?v=gjEAXjd1Two&list=RDgjEAXjd1Two&index=1" target="_blank" rel="noopener" class="link-inline medias-lien" id="mediasLienTexte">Voir sur YouTube →</a>
+    </div>
+  </section>
+
+  <!-- NOUS SOUTENIR -->
+  <section class="support theme-white" id="soutenir">
+    <div class="support-head reveal">
+      <p class="eyebrow" id="soutenirEyebrow">Nous soutenir</p>
+      <h2 id="soutenirTitre">TROIS FAÇONS<br>DE S'ENGAGER</h2>
+    </div>
+    <div class="support-grid reveal" id="soutenirGrid"></div>
+  </section>
+
+  <!-- BANDEAU PHOTO -->
+  <div class="photo-strip reveal" id="photoStrip" aria-hidden="true">
+    <div class="photo-strip-item"><img src="images/strip-people-1.jpg" alt="" loading="lazy"></div>
+    <div class="photo-strip-item"><img src="images/strip-rue-1.jpg" alt="" loading="lazy"></div>
+    <div class="photo-strip-item"><img src="images/strip-people-2.jpg" alt="" loading="lazy"></div>
+    <div class="photo-strip-item"><img src="images/strip-people-5.jpg" alt="" loading="lazy"></div>
+    <div class="photo-strip-item"><img src="images/strip-people-3.jpg" alt="" loading="lazy"></div>
+    <div class="photo-strip-item"><img src="images/strip-people-4.jpg" alt="" loading="lazy"></div>
+    <div class="photo-strip-item"><img src="images/strip-rue-2.jpg" alt="" loading="lazy"></div>
+    <div class="photo-strip-item"><img src="images/strip-people-6.jpg" alt="" loading="lazy"></div>
+  </div>
+
+  <!-- CONTACT / INFOS -->
+  <section class="split-section contact-section" id="contact">
+    <div class="dark-panel theme-yellow reveal">
+      <h2 id="contactTitre">INFOS<br>PRATIQUES</h2>
+      <p class="eyebrow contact-sub" id="contactEyebrow">Nous trouver</p>
+      <p class="panel-text" id="adresse">Nous nous retrouvons tous les dimanches à 16h30 au Coworking «&nbsp;NEW WORK&nbsp;», 4 rue Henri De Châtelier, 33600 Pessac.</p>
+      <ul class="contact-list">
+        <li><strong>Horaire</strong><br><span id="contactHoraire">Tous les dimanches à 16h30</span></li>
+        <li><strong>Agenda</strong><br><a href="#" target="_blank" rel="noopener" class="link-inline" id="contactAgendaLien">Voir l'agenda →</a></li>
+        <li><strong>Nous envoyer un message</strong><br><a href="#contact-form" class="link-inline">Utiliser le formulaire ci-dessous →</a></li>
+      </ul>
+      <form class="contact-form" name="contact" method="POST" data-netlify="true" id="contact-form">
+        <input type="hidden" name="form-name" value="contact">
+        <label>
+          <span>Votre nom*</span>
+          <input type="text" name="nom" required>
+        </label>
+        <label>
+          <span>Votre e-mail*</span>
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          <span>Votre message</span>
+          <textarea name="message" rows="3" required></textarea>
+        </label>
+        <button type="submit" class="btn-block">Envoyer le message</button>
+      </form>
+    </div>
+    <div class="map-panel reveal" id="plan">
+      <iframe class="map-embed" src="https://www.google.com/maps?q=Coworking+NEW+WORK,+4+rue+Henri+De+Ch%C3%A2telier,+33600+Pessac&output=embed" width="100%" height="100%" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Carte — Perspectives Pessac"></iframe>
+      <div class="map-card">
+        <p class="map-card-name" id="mapCardName">Coworking NEW WORK</p>
+        <p id="mapCardAdresse">4 rue Henri De Châtelier<br>33600 Pessac</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <a href="#accueil" class="footer-logo-link">
+      <img src="images/PSP-Pessac-H2_BlancJaune.png" alt="Église Perspectives Pessac" class="footer-logo" id="footerLogo">
+    </a>
+    <span class="footer-rule" aria-hidden="true"></span>
+    <p class="footer-copy" id="footerCopy">© 2026 Perspectives Pessac. Tous droits réservés.</p>
+  </div>
+</footer>
+</div>
+
+<script src="js/content-loader.js"></script>
+<script src="js/main-v43.js"></script>
+
+<!-- Nécessaire pour que le lien d'invitation reçu par e-mail par le client
+     (qui pointe vers la page d'accueil) fonctionne et le redirige vers
+     l'espace d'administration après avoir choisi son mot de passe. -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on('init', (user) => {
+      if (!user) {
+        window.netlifyIdentity.on('login', () => {
+          document.location.href = '/admin/';
+        });
+      }
+    });
+  }
+</script>
 </body>
 </html>
