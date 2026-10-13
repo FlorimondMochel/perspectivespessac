@@ -1,0 +1,11 @@
+[build]
+  publish = "."
+
+# Pas de commande de build : c'est un site statique, Netlify sert les
+# fichiers tels quels (y compris après une publication depuis l'espace
+# d'administration, qui ne fait que modifier content/site.json).
+
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"

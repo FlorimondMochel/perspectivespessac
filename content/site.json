@@ -1,0 +1,128 @@
+{
+  "header": {
+    "logo": "images/logo-perspectives-pessac.png"
+  },
+  "hero": {
+    "titre": "UNE PAROLE<br>ET DES ACTES",
+    "texte": "Nous sommes une jeune implantation d'Église protestante évangélique. Transformés par l'amour de Jésus, nous choisissons, à notre tour, d'aimer et de servir en paroles et en actes ceux qui nous entourent. Nous cherchons à être à l'écoute de notre génération en développant une vie d'Église ouverte à tous, culturellement pertinente, simple, profonde, chaleureuse, interactive et centrée sur l'Évangile. Nous croyons en une Église où chaque don, chaque talent, chaque personne compte. Parce que l'Évangile est un message d'amour révolutionnaire, nous ouvrons intentionnellement nos vies à toutes les personnes que nous rencontrons. Nous manifestons l'amour de Dieu en cherchant à faire du bien dans la ville de Pessac et dans toutes les sphères de nos vies.",
+    "boutonTexte": "Nos célébrations",
+    "boutonLien": "#vie-eglise",
+    "videoPoster": "images/hero-video-poster.jpg",
+    "videoWebm": "images/hero-video.webm",
+    "videoMp4": "images/hero-video.mp4"
+  },
+  "nouveau": {
+    "eyebrow": "Soyez les bienvenus",
+    "titre": "NOUVEAU&nbsp;?",
+    "videoPoster": "images/nouveau-video-poster.jpg",
+    "videoMp4": "images/nouveau-video.mp4",
+    "paragraphes": [
+      "Que vous soyez jeunes dans la foi, chrétien de longue date, à la recherche de Dieu ou juste curieux, soyez les bienvenus&nbsp;! L'Église Perspectives de Pessac vous accueille tels que vous êtes et souhaite vous accompagner dans votre recherche spirituelle. Venez avec votre style, vos questions, vos soucis, vos réserves… vous ne serez pas jugés&nbsp;!",
+      "Nos célébrations ont lieu le dimanche. Elles peuvent se démarquer d'autres courants chrétiens&nbsp;: nous ne nous réunissons pas dans une Église traditionnelle mais dans un coworking. Nos célébrations sont simples. Elles s'articulent pendant 1h30 autour de chants contemporains, de prières, de lectures et d'enseignement de la Bible. Nous visons la simplicité, l'authenticité, l'interaction et la profondeur, et nous essayons de faire de nos célébrations des temps de rencontres et d'échanges fraternels. Une prise en charge des enfants est proposée pendant une partie de la célébration."
+    ],
+    "citation1": "« Souvenez-vous que le livre le plus philosophique, le plus populaire, le plus éternel, c'est la Bible. » — Victor Hugo",
+    "paragraphes2": [
+      "La Bible est au cœur de notre vie d'Église. Nous croyons qu'elle est le moyen par lequel Dieu rencontre chaque homme et chaque femme. Si la Bible a été écrite dans un contexte historique et culturel précis, nous croyons que son message reste puissant et actuel&nbsp;: elle continue de bouleverser des générations de par le monde.",
+      "L'Évangile est le message que nous partageons. Il raconte l'amour de Dieu pour l'humanité. Là où certains pensent que Dieu est absent, voire coupable du sort de notre monde, l'Évangile nous dit que Dieu aime ce monde. Pour le prouver, il a envoyé Jésus pour porter et payer pour le mal de l'humanité toute entière."
+    ],
+    "citation2": "« Car Dieu a tant aimé le monde qu'il a donné son Fils unique afin que quiconque croit en lui ne périsse pas mais ait la vie éternelle. »",
+    "paragrapheFinal": "Que chaque personne entende cette bonne nouvelle est notre projet.",
+    "boutonTexte": "Envie d'en savoir plus&nbsp;? Rejoignez-nous",
+    "boutonLien": "#contact"
+  },
+  "mission": {
+    "titre": "NOTRE<br>MISSION",
+    "photo": "images/mission-aerial.jpg",
+    "cartes": [
+      { "titre": "Accueillir", "accroche": "Nous voulons être une communauté où chacun se sent le bienvenu.", "texte": "Que l'on soit en quête spirituelle ou chrétien de longue date, bordelais de naissance ou fraîchement arrivé, jeune ou moins jeune, encouragé ou traversant une période difficile, l'Église Perspectives de Pessac souhaite offrir un lieu où chacun peut être accueilli avec bienveillance, sans avoir besoin d'être parfait." },
+      { "titre": "Annoncer Jésus", "accroche": "Nous croyons que Jésus reste la réponse aux défis de nos vies.", "texte": "Notre désir est de faire connaître Jésus-Christ avec simplicité, respect et authenticité, afin que chacun puisse le découvrir et être transformé par son amour." },
+      { "titre": "Faire des disciples", "accroche": "Il ne suffit pas de croire mais de se laisser transformer pour suivre Jésus.", "texte": "Nous croyons qu'il faut toute une vie pour devenir disciple de Jésus. Nous voulons accompagner chacun avec patience et persévérance dans sa croissance spirituelle afin qu'il apprenne à vivre chaque jour comme Jésus." },
+      { "titre": "Servir notre ville", "accroche": "Nous croyons que l'Église n'existe pas pour elle-même mais pour bénir celles et ceux qui l'entourent.", "texte": "Nous voulons aimer Pessac de manière concrète, en étant présents auprès des étudiants, des familles, des associations et de tous ceux qui croisent notre route. Nous voulons développer des activités pour créer des ponts entre la ville et l'Église. Nous visons l'ouverture d'un tiers lieu, la création d'un FEU (Foyer Évangélique Universitaire) et la participation à la vie locale." },
+      { "titre": "Former et envoyer", "accroche": "Nous croyons que chaque chrétien a reçu des dons et est appelé à participer à la mission de Dieu.", "texte": "Nous voulons encourager chacun à découvrir les dons que Dieu lui a confiés, à les mettre au service des autres et à être témoin de l'Évangile dans son quotidien. Nous désirons également former des responsables, des implanteurs et des missionnaires qui serviront bien au-delà de la métropole bordelaise." },
+      { "titre": "Multiplier", "accroche": "Notre rêve dépasse notre propre communauté.", "texte": "Nous ne voulons pas simplement faire grandir une Église, mais participer à un mouvement de multiplication de disciples, de responsables et de nouvelles Églises dans tout le Sud-Ouest." }
+    ]
+  },
+  "valeurs": {
+    "titre": "NOS<br>VALEURS",
+    "photo": "images/nouveau-photo.jpg",
+    "cartes": [
+      { "titre": "Centrés sur Jésus", "texte": "Notre identité est fondée en Jésus&nbsp;: nous voulons apprendre à le connaître, l'aimer et lui ressembler toujours davantage. Notre Église n'a pas pour centre une méthode ou un programme, mais une personne&nbsp;: Jésus-Christ." },
+      { "titre": "Accueil inconditionnel", "texte": "Nous voulons être une communauté où chacun peut franchir la porte tel qu'il est, sans avoir besoin de masquer ses blessures, ses questions ou son histoire. Parce que Jésus accueille chacun avec grâce, nous voulons faire de même, en créant un espace où chacun peut être connu, aimé et encouragé à avancer." },
+      { "titre": "Vie missionnelle", "texte": "Nous croyons que l'Église n'est pas un lieu de rassemblement mais un peuple envoyé dans son quotidien pour refléter Jésus. Nous voulons vivre notre foi au cœur de nos familles, de nos quartiers, de nos relations et de notre ville, en étant des témoins de l'Évangile par nos paroles et notre manière de vivre." },
+      { "titre": "Multiplication", "texte": "Nous voulons bâtir une Église qui donne naissance à de nouvelles vies, de nouveaux leaders, de nouveaux groupes et de nouvelles Églises. Notre ambition n'est pas simplement de grandir, mais de nous multiplier afin que toujours plus de personnes puissent découvrir Jésus et devenir à leur tour des disciples qui font des disciples." },
+      { "titre": "Audace", "texte": "Nous voulons avancer avec foi, oser prendre des risques et tenter des choses nouvelles lorsque cela peut nous permettre de rejoindre davantage de personnes avec l'Évangile. Nous préférons parfois nous tromper en essayant plutôt que rester immobiles par peur de l'échec." },
+      { "titre": "Générosité", "texte": "Nous voulons être une communauté qui donne librement de son temps, de ses talents, de ses ressources et de son énergie pour servir Dieu et les autres. Parce que nous avons tout reçu de Dieu, nous choisissons de contribuer joyeusement à ce qu'il se fait dans notre ville et au-delà." }
+    ]
+  },
+  "vieEglise": {
+    "titre": "VIE<br>D'ÉGLISE",
+    "photo": "images/vie-eglise-photo.jpg",
+    "cartes": [
+      { "id": "celebration", "titre": "Célébrations", "frequence": "Dimanche", "texte": "Nous sommes conscients que l'Église ne se résume pas à un bâtiment, ni à un culte. Mais nous croyons qu'il y a dans le rassemblement de croyants une bénédiction toute particulière. Ensemble, nous cherchons Dieu, ensemble nous prions, ensemble nous racontons ses merveilles, ensemble nous cherchons à comprendre la Bible et à nous laisser transformer, ensemble nous partageons la Cène. Nos célébrations sont festives, joyeuses, interactives, simples et centrées sur Jésus.", "pleineLargeur": false },
+      { "id": "living-room", "titre": "Living Rooms", "frequence": "En semaine", "texte": "Conscients de la force du grand groupe, nous comprenons aussi l'importance des petits groupes. Le Living Room est un temps propice au partage où nous nous rassemblons en semaine pour étudier la Bible ensemble, parler et prier pour nos défis. Nous croyons que ces petites cellules permettent l'approfondissement de nos relations et participent à l'encouragement et au développement de la foi dans nos vies.", "pleineLargeur": false },
+      { "id": "etudiants", "titre": "Étudiants (FEU)", "frequence": "Chaque semaine", "texte": "Si nous souhaitons accueillir chacun, nous portons une attention particulière aux étudiants. Nous comprenons qu'ils sont dans un moment de vie particulier&nbsp;: recherche de la volonté de Dieu pour leur vie, questions sur l'avenir, début d'une vie autonome, solitude, éloignement sont autant de défis que nous souhaitons accompagner. Pour cela, nous développons un projet de FEU, Foyer Évangélique Universitaire, où chaque semaine nous proposons aux étudiants de se retrouver pour s'encourager et approfondir leur foi, pour vivre en disciple et être témoins de l'Évangile.", "pleineLargeur": false },
+      { "id": "ados", "titre": "Ados", "frequence": "Tous les 15 jours", "texte": "Construire sa vie d'adolescent chrétien n'est pas chose aisée. Tension avec les parents, questions identitaires, réflexions sur le monde, recherche de sens, regard des autres, besoin de plaire, peurs pour l'avenir sont autant de défis pour ces jeunes. Nous voulons les entourer et les accompagner en leur montrant comment Dieu, dans sa Parole, peut les aider dans ce stade sensible mais tellement important de leur vie. Nous proposons un groupe d'ados tous les 15 jours, ainsi qu'un inter-groupe avec 5 autres Églises tous les 2 mois.", "pleineLargeur": false },
+      { "id": "vie-missionnelle", "titre": "Vie missionnelle", "frequence": "Au quotidien", "texte": "Dietrich Bonhoeffer disait&nbsp;: « Une Église n'est Église que quand elle est là pour les autres. » Autrement dit, être une Église missionnelle, c'est être une Église pour autrui. C'est exactement ce qu'a fait Jésus&nbsp;: il a quitté le ciel pour venir servir l'humanité et mourir pour elle.\n\nNous croyons que l'Église a ce mandat de ne pas vivre pour elle-même, mais de quitter son confort pour rejoindre ceux qui l'entourent. Nous voulons donc être une Église où chaque activité est intentionnellement tournée vers l'extérieur. Nous encourageons nos membres à s'inscrire dans le tissu social — familles, amis, collègues, voisins, associations culturelles et sportives — afin de créer des relations d'amitié et pouvoir être témoins de Jésus.", "pleineLargeur": false },
+      { "id": "coffee-shop", "titre": "Coffee shop associatif", "frequence": "Projet à venir", "texte": "Nous travaillons à l'ouverture d'un coffee shop associatif qui soit bien plus qu'un lieu où boire un café&nbsp;: un espace chaleureux, accessible à tous, où l'on peut se rencontrer, échanger et créer du lien. À travers des activités culturelles, des concerts, des expositions, des ateliers et différents événements, nous voulons contribuer à la vie du quartier et offrir un lieu d'échanges. Cet espace sera une manière concrète de vivre notre engagement missionnel en étant présents au cœur de la ville, au service de tous.", "pleineLargeur": false },
+      { "id": "discipulat", "titre": "Discipulat", "frequence": "Un chemin de vie", "texte": "Trop longtemps nous avons cru que le discipulat se résumait à une préparation au baptême. En réalité, le discipulat est tout autre. Nous croyons que le discipulat est le cœur de la vie chrétienne. Il ne s'agit pas d'un parcours de quelques semaines avant le baptême, mais d'un chemin qui dure toute la vie. Être disciple de Jésus, c'est apprendre à lui ressembler toujours davantage. Cette transformation touche toute notre personne&nbsp;:", "liste": [
+        "Notre connaissance, en découvrant toujours mieux Dieu et sa Parole.",
+        "Notre comportement, en laissant l'Évangile façonner nos choix et notre manière de vivre.",
+        "Notre cœur, en laissant le Saint-Esprit transformer nos motivations, nos désirs et notre caractère."
+      ], "texteApres": "Pour nous, le discipulat n'est pas un programme de l'Église&nbsp;; c'est la manière dont nous vivons ensemble notre foi, et cela prend toute une vie. Nous attendons des membres de l'Église qu'ils soient engagés dans le discipulat, pour eux-mêmes et pour les autres.", "pleineLargeur": true }
+    ]
+  },
+  "histoire": {
+    "photo": "images/arnaud-portrait.jpg",
+    "eyebrow": "Notre histoire",
+    "titre": "LE SUD-OUEST<br>DANS LE CŒUR",
+    "paragraphes": [
+      "À l'âge de 25 ans, Arnaud est marqué par une carte de France indiquant le nombre d'Églises évangéliques par département. Il réalise à quel point l'Alsace, sa région natale, est privilégiée au niveau de la présence protestante. Ce jour-là, Dieu dépose dans sa vie un fardeau pour la région Sud-Ouest.",
+      "Impatient et pressé, Arnaud pense rejoindre rapidement un projet d'implantation d'Église à Biarritz. Mais le temps de Dieu n'est pas le nôtre. Dieu avait prévu un autre chemin, moins direct, plus formateur. Il s'en est suivi 20 années de préparation, d'expériences, de projets et de défis.",
+      "Après quatre années d'études à l'Institut Biblique de Genève, et dix ans d'implantation d'Églises à Strasbourg, Dieu ouvre une porte inattendue. En août 2025, Arnaud et Colette répondent à l'appel de Dieu et rejoignent la région bordelaise pour développer un réseau d'implantation avec l'Union Perspectives.",
+      "L'Église Perspectives de Pessac est donc le premier chapitre d'un projet plus grand que Dieu prépare."
+    ],
+    "visionCitation": "« Implanter dans la métropole de Bordeaux une Église missionnelle qui inspire une nouvelle génération de disciples, transforme sa ville et catalyse un mouvement d'implantation d'Églises pour le Sud-Ouest. »",
+    "visionLabel": "Notre vision"
+  },
+  "medias": {
+    "eyebrow": "Médias",
+    "titre": "PRÉDICATIONS<br>&amp; CONTENUS",
+    "texte": "Retrouvez nos prédications et contenus en vidéo. D'autres suivront au fil de la vie de l'église.",
+    "lienTexte": "Voir sur YouTube →",
+    "lienUrl": "https://www.youtube.com/watch?v=gjEAXjd1Two&list=RDgjEAXjd1Two&index=1",
+    "vignette": "https://img.youtube.com/vi/gjEAXjd1Two/hqdefault.jpg"
+  },
+  "soutenir": {
+    "eyebrow": "Nous soutenir",
+    "titre": "TROIS FAÇONS<br>DE S'ENGAGER",
+    "cartes": [
+      { "titre": "Prière", "texte": "La prière doit être au cœur d'un projet d'implantation. Nous avons besoin de vos prières pour l'équipe, les personnes que nous rencontrerons, la ville et le développement de cette nouvelle Église." },
+      { "titre": "Équipier", "texte": "Vous pouvez aussi vous engager concrètement à nos côtés en rejoignant le projet, en mettant vos dons, votre temps et vos compétences à son service. Que ce soit pour quelques semaines, quelques mois ou sur le long terme, chaque personne peut trouver sa place et contribuer à bâtir cette Église&nbsp;: discipulat, café associatif, Foyer Évangélique Universitaire… nous avons besoin de vous&nbsp;!" },
+      { "titre": "Finances", "texte": "Lancer une nouvelle Église demande des ressources, et votre générosité nous permet de donner vie au projet et de rejoindre toujours plus de personnes. Chaque don contribue concrètement à l'implantation, à la mission et au développement de cette nouvelle communauté.", "note": "Lien de don à venir" }
+    ]
+  },
+  "bandeauPhotos": [
+    "images/strip-people-1.jpg",
+    "images/strip-rue-1.jpg",
+    "images/strip-people-2.jpg",
+    "images/strip-people-5.jpg",
+    "images/strip-people-3.jpg",
+    "images/strip-people-4.jpg",
+    "images/strip-rue-2.jpg",
+    "images/strip-people-6.jpg"
+  ],
+  "contact": {
+    "titre": "INFOS<br>PRATIQUES",
+    "eyebrow": "Nous trouver",
+    "adresseTexte": "Nous nous retrouvons tous les dimanches à 16h30 au Coworking «&nbsp;NEW WORK&nbsp;», 4 rue Henri De Châtelier, 33600 Pessac.",
+    "horaire": "Tous les dimanches à 16h30",
+    "agendaLien": "#",
+    "mapEmbedUrl": "https://www.google.com/maps?q=Coworking+NEW+WORK,+4+rue+Henri+De+Ch%C3%A2telier,+33600+Pessac&output=embed",
+    "mapNom": "Coworking NEW WORK",
+    "mapAdresse": "4 rue Henri De Châtelier<br>33600 Pessac"
+  },
+  "footer": {
+    "logo": "images/PSP-Pessac-H2_BlancJaune.png",
+    "copyright": "© 2026 Perspectives Pessac. Tous droits réservés."
+  }
+}

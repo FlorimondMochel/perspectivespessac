@@ -1,0 +1,175 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Dossier où les photos/vidéos envoyées depuis l'espace client sont stockées
+media_folder: "images/uploads"
+public_folder: "images/uploads"
+
+# Désactive l'aperçu "brouillon" automatique : les modifications sont
+# publiées directement (le client n'a pas de notion de brouillon à gérer).
+publish_mode: simple
+
+locale: "fr"
+
+collections:
+  - name: "site"
+    label: "Contenu du site"
+    files:
+      - name: "contenu"
+        label: "Modifier le site"
+        file: "content/site.json"
+        fields:
+
+          - label: "En-tête (menu du haut)"
+            name: "header"
+            widget: object
+            fields:
+              - { label: "Logo (fond sombre)", name: "logo", widget: image }
+
+          - label: "Accueil (bannière)"
+            name: "hero"
+            widget: object
+            fields:
+              - { label: "Titre", name: "titre", widget: text, hint: "Un saut de ligne possible avec <br>" }
+              - { label: "Texte de présentation", name: "texte", widget: text }
+              - { label: "Texte du bouton", name: "boutonTexte", widget: string }
+              - { label: "Lien du bouton", name: "boutonLien", widget: string }
+              - { label: "Image d'aperçu de la vidéo", name: "videoPoster", widget: image }
+              - { label: "Vidéo (format .webm, optionnel)", name: "videoWebm", widget: file, required: false }
+              - { label: "Vidéo (format .mp4)", name: "videoMp4", widget: file }
+
+          - label: "Rubrique « Nouveau ? »"
+            name: "nouveau"
+            widget: object
+            fields:
+              - { label: "Petit texte au-dessus du titre", name: "eyebrow", widget: string }
+              - { label: "Titre", name: "titre", widget: string }
+              - { label: "Image d'aperçu de la vidéo", name: "videoPoster", widget: image }
+              - { label: "Vidéo (format .mp4)", name: "videoMp4", widget: file }
+              - label: "Premier bloc de paragraphes"
+                name: paragraphes
+                widget: list
+                field: { label: "Paragraphe", name: "texte", widget: text }
+              - { label: "Première citation", name: "citation1", widget: text, required: false }
+              - label: "Deuxième bloc de paragraphes"
+                name: paragraphes2
+                widget: list
+                field: { label: "Paragraphe", name: "texte", widget: text }
+              - { label: "Deuxième citation", name: "citation2", widget: text, required: false }
+              - { label: "Paragraphe final", name: "paragrapheFinal", widget: text, required: false }
+              - { label: "Texte du bouton", name: "boutonTexte", widget: string }
+              - { label: "Lien du bouton", name: "boutonLien", widget: string }
+
+          - label: "Rubrique « Notre Mission »"
+            name: "mission"
+            widget: object
+            fields:
+              - { label: "Titre", name: "titre", widget: text }
+              - { label: "Photo", name: "photo", widget: image }
+              - label: "Cartes (6 points de la mission)"
+                name: cartes
+                widget: list
+                fields:
+                  - { label: "Titre", name: "titre", widget: string }
+                  - { label: "Phrase d'accroche", name: "accroche", widget: text }
+                  - { label: "Texte", name: "texte", widget: text }
+
+          - label: "Rubrique « Nos Valeurs »"
+            name: "valeurs"
+            widget: object
+            fields:
+              - { label: "Titre", name: "titre", widget: text }
+              - { label: "Photo", name: "photo", widget: image }
+              - label: "Cartes (valeurs)"
+                name: cartes
+                widget: list
+                fields:
+                  - { label: "Titre", name: "titre", widget: string }
+                  - { label: "Texte", name: "texte", widget: text }
+
+          - label: "Rubrique « Vie d'Église »"
+            name: "vieEglise"
+            widget: object
+            fields:
+              - { label: "Titre", name: "titre", widget: text }
+              - { label: "Photo", name: "photo", widget: image }
+              - label: "Cartes (activités)"
+                name: cartes
+                widget: list
+                fields:
+                  - { label: "Identifiant technique (ne pas modifier)", name: "id", widget: string, required: false }
+                  - { label: "Titre", name: "titre", widget: string }
+                  - { label: "Fréquence", name: "frequence", widget: string, required: false }
+                  - { label: "Texte", name: "texte", widget: text }
+                  - label: "Liste à puces (optionnel)"
+                    name: liste
+                    widget: list
+                    required: false
+                    field: { label: "Point", name: "texte", widget: text }
+                  - { label: "Texte après la liste (optionnel)", name: "texteApres", widget: text, required: false }
+                  - { label: "Afficher en pleine largeur", name: "pleineLargeur", widget: boolean, default: false }
+
+          - label: "Rubrique « Notre Histoire »"
+            name: "histoire"
+            widget: object
+            fields:
+              - { label: "Photo (portrait)", name: "photo", widget: image }
+              - { label: "Petit texte au-dessus du titre", name: "eyebrow", widget: string }
+              - { label: "Titre", name: "titre", widget: text }
+              - label: "Paragraphes"
+                name: paragraphes
+                widget: list
+                field: { label: "Paragraphe", name: "texte", widget: text }
+              - { label: "Citation de vision", name: "visionCitation", widget: text }
+              - { label: "Légende sous la citation", name: "visionLabel", widget: string }
+
+          - label: "Rubrique « Médias »"
+            name: "medias"
+            widget: object
+            fields:
+              - { label: "Petit texte au-dessus du titre", name: "eyebrow", widget: string }
+              - { label: "Titre", name: "titre", widget: text }
+              - { label: "Texte", name: "texte", widget: text }
+              - { label: "Texte du lien", name: "lienTexte", widget: string }
+              - { label: "Lien (YouTube, etc.)", name: "lienUrl", widget: string }
+              - { label: "Image de la vignette", name: "vignette", widget: image }
+
+          - label: "Rubrique « Nous Soutenir »"
+            name: "soutenir"
+            widget: object
+            fields:
+              - { label: "Petit texte au-dessus du titre", name: "eyebrow", widget: string }
+              - { label: "Titre", name: "titre", widget: text }
+              - label: "Cartes"
+                name: cartes
+                widget: list
+                fields:
+                  - { label: "Titre", name: "titre", widget: string }
+                  - { label: "Texte", name: "texte", widget: text }
+                  - { label: "Petite note (optionnel)", name: "note", widget: string, required: false }
+
+          - label: "Bandeau de photos (8 photos)"
+            name: "bandeauPhotos"
+            widget: list
+            field: { label: "Photo", name: "image", widget: image }
+
+          - label: "Infos pratiques / Contact"
+            name: "contact"
+            widget: object
+            fields:
+              - { label: "Titre", name: "titre", widget: text }
+              - { label: "Petit texte au-dessus du titre", name: "eyebrow", widget: string }
+              - { label: "Texte d'adresse (phrase complète)", name: "adresseTexte", widget: text }
+              - { label: "Horaire", name: "horaire", widget: string }
+              - { label: "Lien vers l'agenda (Google Agenda, etc.)", name: "agendaLien", widget: string }
+              - { label: "Lien de la carte Google Maps (URL d'intégration)", name: "mapEmbedUrl", widget: string }
+              - { label: "Nom affiché sur la carte", name: "mapNom", widget: string }
+              - { label: "Adresse affichée sur la carte", name: "mapAdresse", widget: text }
+
+          - label: "Pied de page"
+            name: "footer"
+            widget: object
+            fields:
+              - { label: "Logo (fond sombre)", name: "logo", widget: image }
+              - { label: "Texte de copyright", name: "copyright", widget: string }
