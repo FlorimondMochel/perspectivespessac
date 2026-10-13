@@ -3,8 +3,8 @@ backend:
   branch: main
 
 # Dossier où les photos/vidéos envoyées depuis l'espace client sont stockées
-media_folder: "images/uploads"
-public_folder: "images/uploads"
+media_folder: "images"
+public_folder: "images"
 
 # Désactive l'aperçu "brouillon" automatique : les modifications sont
 # publiées directement (le client n'a pas de notion de brouillon à gérer).
